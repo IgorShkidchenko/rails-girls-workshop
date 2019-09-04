@@ -27,8 +27,8 @@ services:
       - PG_HOST=postgres
       - PG_PASSWORD=postgres
       - PG_USER=postgres
-      - NODE_ENV=production
-      - RAILS_ENV=${RAILS_ENV:-production}
+      - NODE_ENV=development
+      - RAILS_ENV=${RAILS_ENV:-development}
       - BOOTSNAP_CACHE_DIR=/bundle/bootsnap
       - WEB_CONCURRENCY=1
       - HISTFILE=/app/log/.bash_history
